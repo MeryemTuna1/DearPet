@@ -4,16 +4,16 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 00067a629b2e5af4693b6d1a164e04ed
+  productGUID: abd72c49dd8a71c4fb4916b6deafba31
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 0
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: DearPet
+  productName: pouKitapOyun
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -727,14 +727,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: DearPet
+  metroPackageName: pouKitapOyun
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: DearPet
+  metroApplicationDescription: pouKitapOyun
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -803,10 +803,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: b8e9e0ed-61b0-4282-ab10-fe83ef7512fb
+  cloudProjectId: deb557b9-d1be-4a5d-8ef5-61426ded144a
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: DearPet
+  projectName: pouKitapOyun
   organizationId: mrymtuna
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
