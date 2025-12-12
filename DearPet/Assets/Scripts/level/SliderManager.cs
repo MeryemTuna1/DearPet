@@ -57,19 +57,19 @@ public class SliderManager : MonoBehaviour
 
     //dışarıdan müdahale için 
 
-    public void aclikArttır(float deger)
+    public void aclikArttir(float deger)
     {
         aclikV += deger;
     }
-    public void saglikArttır(float deger)
+    public void saglikArttir(float deger)
     {
         saglikV += deger;
     }
-    public void eglenceArttır(float deger)
+    public void eglenceArttir(float deger)
     {
         eglenceV += deger;
     }
-    public void bilgiArttır(float deger)
+    public void bilgiArttir(float deger)
     {
         bilgiV += deger;
     }
