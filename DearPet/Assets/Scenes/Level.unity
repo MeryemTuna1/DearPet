@@ -3098,8 +3098,8 @@ MonoBehaviour:
   saglikV: 100
   eglenceV: 100
   bilgiV: 100
-  aclikA: 10
-  saglikA: 5
+  aclikA: 1
+  saglikA: 1
   eglenceA: 25
   bilgiA: 20
 --- !u!1 &1609755553

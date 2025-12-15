@@ -23,6 +23,8 @@ public class miniGameButton : MonoBehaviour
     }
     public void tryUnlock()
     {
+        Debug.Log("Para: " + MoneyManager.instance.money);
+
         if (MoneyManager.instance.SpendMoney(unlockPrice))
         {
             GameUnlockManager.unlockGame(gameID);

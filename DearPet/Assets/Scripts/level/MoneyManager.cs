@@ -6,7 +6,7 @@ public class MoneyManager : MonoBehaviour
 {
    
     public static MoneyManager instance;
-    [SerializeField] private int money;
+    public int money;
 
     private void Awake()
     {
@@ -23,7 +23,10 @@ public class MoneyManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
+    private void Start()
+    {
+        ResetMoney();
+    }
     public void AddMoney(int deger)
     {
         money += deger;
@@ -40,5 +43,11 @@ public class MoneyManager : MonoBehaviour
         }
 
         return false;
+    }
+
+    public void ResetMoney()
+    {
+        money = 0;
+        PlayerPrefs.SetInt("Money",money);
     }
 }
