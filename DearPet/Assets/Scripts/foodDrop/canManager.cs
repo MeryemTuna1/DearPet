@@ -13,7 +13,8 @@ public class canManager : MonoBehaviour
     [SerializeField] private int life = 3;
     [SerializeField] private Text scoreT;
     [SerializeField] private Image[] canImage;
-
+    [SerializeField] private reward r;
+   
     private void Awake()
     {
         instance = this;
@@ -21,6 +22,10 @@ public class canManager : MonoBehaviour
     private void Update()
     {
         scoreT.text = score.ToString();
+        if (score>=2 )
+        {
+            r.FinishGame();
+        }
     }
     public void AddScore(int value)
     {

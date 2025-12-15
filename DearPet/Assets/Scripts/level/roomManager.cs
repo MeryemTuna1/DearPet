@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class roomManager : MonoBehaviour
@@ -82,5 +83,10 @@ public class roomManager : MonoBehaviour
         bedroomPanel.SetActive(false);
         gardenPanel.SetActive(false);
         libraryPanel.SetActive(false);      
+    }
+
+    public void miniGamesOpen()
+    {
+        SceneManager.LoadScene("miniGames");
     }
 }

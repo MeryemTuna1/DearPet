@@ -10,11 +10,20 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     [SerializeField] private int score;
     [SerializeField] private Text scoreT;
+    [SerializeField] private reward r;
 
     private void Awake()
     {
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
+    }
+
+    private void Update()
+    {
+        if (score>=2)
+        {
+            r.FinishGame();
+        }
     }
 
     private void Start()
