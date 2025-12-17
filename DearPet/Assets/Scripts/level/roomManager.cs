@@ -89,4 +89,9 @@ public class roomManager : MonoBehaviour
     {
         SceneManager.LoadScene("miniGames");
     }
+
+    public void bookMenuOpen()
+    {
+        SceneManager.LoadScene("BookMenu");
+    }
 }

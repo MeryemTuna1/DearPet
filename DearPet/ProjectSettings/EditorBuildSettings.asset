@@ -17,4 +17,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/miniGames.unity
     guid: 226af6a8c8f0fad48ac105944330b7da
+  - enabled: 1
+    path: Assets/Scenes/BookMenu.unity
+    guid: 21a143ef3e385e348adb0a0cf1103b0a
+  - enabled: 1
+    path: Assets/Scenes/bookMiniGame1.unity
+    guid: 49cc68bf1dc310d4b9791c7ca323bc53
+  - enabled: 1
+    path: Assets/Scenes/bookRead.unity
+    guid: 33936ee550bb9e84e95a9e614dd5cc74
+  - enabled: 1
+    path: Assets/Scenes/minigame3.unity
+    guid: eb757f90ddf29fd4987e90a41fb3524a
+  - enabled: 1
+    path: Assets/Scenes/bookMiniGame2.unity
+    guid: b9c8070b1b832124b9b96b730903eb4f
+  - enabled: 1
+    path: Assets/Scenes/bookRead1.unity
+    guid: b0b441c028c959f48a54f07370086dc8
   m_configObjects: {}

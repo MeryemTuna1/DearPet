@@ -7,6 +7,7 @@ public class MoneyManager : MonoBehaviour
    
     public static MoneyManager instance;
     public int money;
+  
 
     private void Awake()
     {
@@ -27,6 +28,8 @@ public class MoneyManager : MonoBehaviour
     {
         ResetMoney();
     }
+
+    
     public void AddMoney(int deger)
     {
         money += deger;

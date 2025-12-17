@@ -12,4 +12,13 @@ public class GameUnlockManager : MonoBehaviour
     {
        PlayerPrefs.SetInt(gameID, 1);     
     }
+
+    public static bool isUnlockB(string bookID)
+    {
+        return PlayerPrefs.GetInt(bookID, 0) == 1;
+    }
+    public static void unlockBook(string bookID)
+    {
+        PlayerPrefs.SetInt(bookID, 1);
+    }
 }

@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Text scoreT;
     [SerializeField] private reward r;
 
+    //mini games ayarý
+
     private void Awake()
     {
         if (Instance == null) Instance = this;

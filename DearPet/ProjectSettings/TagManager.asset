@@ -7,6 +7,7 @@ TagManager:
   - Yem
   - Obstacles
   - Star
+  - dropZone
   layers:
   - Default
   - TransparentFX
